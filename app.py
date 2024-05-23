@@ -79,7 +79,7 @@ def setup_query_engine(github_url):
 
     if validate_owner_repo(owner, repo):
         # Clone the GitHub repo & save it in a directory
-        input_dir_path = f"/path/to/cloned/repos/{repo}"
+        input_dir_path = f"/mount/src/chatwithgithubripo/{repo}"
 
         if os.path.exists(input_dir_path):
             pass
