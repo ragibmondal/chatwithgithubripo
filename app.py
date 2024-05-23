@@ -6,7 +6,6 @@ from dotenv import load_dotenv
 import yaml
 import subprocess
 import re
-from langchain.document_loaders import SimpleDirectoryReader  # Import added here
 
 # Load environment variables from .env file
 load_dotenv()
